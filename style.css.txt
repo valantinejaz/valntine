@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff7a8d, #ffadc1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  color: white;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.heart-btn {
+  background-color: #ff416c;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 25px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.heart-btn:hover {
+  background-color: #ff5e75;
+  transform: scale(1.1);
+}
+
+.message {
+  display: none;
+  font-size: 2rem;
+  color: white;
+  margin-top: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

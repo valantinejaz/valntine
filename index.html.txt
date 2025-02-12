@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Proposal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Will you be my Valentine, JoJocita 💕💕?</h1>
+    <button class="heart-btn" onclick="revealMessage()">Click here 💖</button>
+    <div class="message" id="message">Yes, I do!</div>
+    
+    <!-- Embed YouTube video (replace YOUR_VIDEO_ID with the actual video ID) -->
+    <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/CwGbMYLjIpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
